@@ -1,0 +1,194 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(49, 49, 50));
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+nav .logo {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  background-color: #1442cc;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 800px;
+  color: white;
+  text-align: left;
+  padding-top: 50px;
+  padding-right: 30px;
+}
+
+.hero img {
+  height: 100vh;
+  border: 10px solid rgb(0, 0, 0);
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.hero button {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero button:hover {
+  background-color: #0971d3;
+  color: white;
+}
+
+.about-us {
+  /* background-color: #141414; */
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.about-us h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.services {
+
+  color: #ffffff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.services h2 {
+    color:#000000;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: white;
+  color: black;
+  max-width: 300px;
+  max-height: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 1.2em;
+}
+
+.contact {
+
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 80px;
+}
+
+.contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contact-info-item {
+  flex: 1;
+  margin: 20px;
+}
+
+.contact-info-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.contact-info-item p {
+  font-size: 1.2em;
+}
+
+.social-icons {
+  display: block;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-icon {
+  font-size: 2em;
+  margin: 0 10px;
+  color: white;
+}
+footer{
+    background-color: white;
+    text-align:center;
+    padding:10px auto;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
